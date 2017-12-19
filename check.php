@@ -20,13 +20,15 @@
                 <h2 class="mdl-card__title-text">Welcome</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                search for a username?
+                Please enter a username
             </div>
             <div class="mdl-card__actions mdl-card--border">
-            <form action="check.php" method="get">
-
-            <input class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" value="yes">
-
+            <form action="getresult.php" method="post" >
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="user_id" name="user_id">
+                    <label class="mdl-textfield__label" align="center" for="user_id">username</label>
+                </div>
+            <input class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit">
             </form >
 
             </div>
