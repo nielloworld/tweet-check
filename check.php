@@ -12,21 +12,25 @@
         <div class="mdl-layout-spacer"></div>
         </div>
     </header>
-     <!-- welcome page -->
     <main class="mdl-layout__content">
         <div class="page-content" align="center">
+        <!-- Your content goes here -->
             <div class="demo-card-wide mdl-card mdl-shadow--2dp">
             <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Welcome</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                search for a username to see his/her last 500 tweets!
-                <br> you want to try?
+                Please enter a @username
             </div>
             <div class="mdl-card__actions mdl-card--border">
-            <form action="check.php" method="get">
-                <input class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" value="yes">
+            <form action="getresult.php" method="post" >
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="user_id" name="user_id">
+                    <label class="mdl-textfield__label" align="center" for="user_id">username</label>
+                </div>
+            <input class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit">
             </form >
+
             </div>
             <div class="mdl-card__menu">
                 <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
