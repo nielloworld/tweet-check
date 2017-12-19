@@ -20,7 +20,7 @@
                 <h2 class="mdl-card__title-text">Welcome</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                Please enter a username
+                Please enter a @username
             </div>
             <div class="mdl-card__actions mdl-card--border">
             <form action="getresult.php" method="post" >
