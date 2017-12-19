@@ -14,7 +14,7 @@
     </header>
     <main class="mdl-layout__content">
         <div class="page-content" align="center">
-        <!-- Your content goes here -->
+        <!-- form for the username -->
             <div class="demo-card-wide mdl-card mdl-shadow--2dp">
             <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Welcome</h2>

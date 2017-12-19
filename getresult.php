@@ -54,7 +54,7 @@
                 data.addRows(<?php echo $sample ?>);
                 
             var options = {
-            title: 'Recent 500 tweets - with time',
+            title: 'Recent 500 tweets and the time posted',
             legend: { position: 'none' },
             };
 
